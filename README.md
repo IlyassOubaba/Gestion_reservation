@@ -16,4 +16,5 @@
 ![Screenshot 16 ](https://github.com/user-attachments/assets/2b68d253-8cb4-451d-8746-40b9db61e399)
 ![Screenshot 17 ](https://github.com/user-attachments/assets/802ee291-d324-4d23-b98f-88182969b879)
 
+![Diagramme_de_Class_](https://github.com/user-attachments/assets/690517a4-482b-421b-b978-10dc8070f0c8)
 
