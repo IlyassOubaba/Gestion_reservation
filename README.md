@@ -1,20 +1,59 @@
-![Screenshot_1](https://github.com/user-attachments/assets/0a41585f-a6e5-43ab-af6e-e31f21e4b08f)
-![Screenshot 2](https://github.com/user-attachments/assets/014617eb-e715-4b97-89c3-d69bc9c23278)
-![Screenshot 3](https://github.com/user-attachments/assets/f2c7a2b5-ef5b-4b81-9175-ba6167ca4396)
-![Screenshot4](https://github.com/user-attachments/assets/44c54784-fa99-46a4-b06d-839882823ca9)
-![Screenshot 5](https://github.com/user-attachments/assets/fa2fad00-b498-46ed-b30d-00631cdda262)
-![Screenshot 6](https://github.com/user-attachments/assets/71d06f39-8b5a-4f4e-ba1e-68fec44ce0f8)
-![Screenshot 7](https://github.com/user-attachments/assets/c6e9ddb1-82f7-494d-b939-7ac6f0eb8717)
-![Screenshot 8](https://github.com/user-attachments/assets/bd557e47-8207-420d-b919-1a5471dc99e5)
-![Screenshot 9](https://github.com/user-attachments/assets/b9fe6fac-c858-410e-9a3c-afe9febd29e9)
-![Screenshot 10 ](https://github.com/user-attachments/assets/b571933c-8433-4125-8b92-a59dc43fe150)
-![Screenshot 11 ](https://github.com/user-attachments/assets/bb00349d-1e4e-4fe0-949f-f3e1d9f25e19)
-![Screenshot 12 ](https://github.com/user-attachments/assets/1ef366d9-83f7-4716-8aeb-bc8676c3ba8d)
-![Screenshot 13 ](https://github.com/user-attachments/assets/23fb7deb-7f20-42ee-9274-eb3b9c1ec615)
-![Screenshot 14 ](https://github.com/user-attachments/assets/91ede921-754a-4199-be82-43bfa7ca7591)
-![Screenshot 15 ](https://github.com/user-attachments/assets/f130f871-5ef1-4a15-bfa1-2d3ad0d8dbac)
-![Screenshot 16 ](https://github.com/user-attachments/assets/2b68d253-8cb4-451d-8746-40b9db61e399)
-![Screenshot 17 ](https://github.com/user-attachments/assets/802ee291-d324-4d23-b98f-88182969b879)
+# Gestion des Réservations
+
+Application Java de gestion de réservations utilisant **Hibernate**, **JPA** et **Maven**.
+
+---
+
+##  Objectif du projet
+
+Ce projet vise à implémenter un système complet de gestion de réservations (salles, ressources, rendez-vous, hôtels, événements, etc.) en utilisant les concepts avancés de persistance avec **Hibernate ORM** et **JPA**.
+
+Il s'agit typiquement d'un exercice d'apprentissage / projet académique/professionnel pour maîtriser :
+- Mapping objet-relationnel
+- Relations complexes (OneToMany, ManyToMany, etc.)
+- Gestion des transactions
+- Requêtes JPQL / Criteria
+- Validation et logique métier
+
+---
+
+##  Technologies utilisées
+
+- **Java** (17.0.15)
+- **Maven** (gestion des dépendances)
+- **Hibernate** 
+- **JPA** 
+- **MySQL**
+
+---
+
+## Fonctionnalités principales
+
+- Gestion des clients / utilisateurs
+- Création, modification, annulation de réservations
+- Vérification de disponibilité (conflits de dates)
+- Consultation des réservations (par client, par période, par ressource)
+- Gestion des ressources à réserver (salles de réunion, matériels, terrains, etc.)
+- Historique et état des réservations (confirmée, en attente, annulée)
+
+
+---
+
+## Diagramme de classe
 
 ![Diagramme_de_Class_](https://github.com/user-attachments/assets/690517a4-482b-421b-b978-10dc8070f0c8)
 
+---
+
+## Video demo
+
+
+https://github.com/user-attachments/assets/36f3caa1-bb67-4d0f-ac64-1c0b6945a9ee
+
+---
+
+
+## Conclusion
+
+Ce projet de gestion de réservations est un excellent cas pratique pour consolider Hibernate/JPA dans un contexte métier concret et très demandé.
+Même à l'état de base, il démontre une bonne maîtrise des entités, relations, transactions et requêtes — des compétences directement transférables dans le développement d'applications réelles (ERP, systèmes de booking, gestion d'événements...).
